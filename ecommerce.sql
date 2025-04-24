@@ -30,6 +30,7 @@ CREATE TABLE product (
     brand_id INT,
     category_id INT,
     base_price DECIMAL(10,2) NOT NULL,
+    sale_price DECIMAL(10,2),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     FOREIGN KEY (brand_id) REFERENCES brand(id) ON DELETE SET NULL,
@@ -78,6 +79,7 @@ CREATE TABLE product_item (
     sku VARCHAR(50) UNIQUE NOT NULL,
     price DECIMAL(10,2) NOT NULL,
     quantity_in_stock INT NOT NULL DEFAULT 0,
+    low_stock_threshold INT DEFAULT 5,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     FOREIGN KEY (product_id) REFERENCES product(id) ON DELETE CASCADE
