@@ -1,6 +1,6 @@
 # E-Commerce Database Design
 
-![ERD Diagram](erd_diagram.png) <!-- Add your diagram image here -->
+![ERD Diagram](https://github.com/waigirikamau/GROUP681-DATABASE-ASSIGNMENT/blob/master/_EDR%20diagram%20design.drawio.png) <!-- Add your diagram image here -->
 
 ## Overview
 A comprehensive database design for an e-commerce platform, featuring product management, variations, attributes, and inventory tracking.
