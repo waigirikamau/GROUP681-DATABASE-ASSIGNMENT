@@ -1,6 +1,6 @@
 # 🛍️ E-Commerce Database System
 
-![ERD Diagram]()  
+![ERD Diagram](https://github.com/waigirikamau/GROUP681-DATABASE-ASSIGNMENT/blob/master/_EDR%20diagram%20design.drawio.png)  
 *Created with [draw.io]
 
 ## 📦 Database Features
