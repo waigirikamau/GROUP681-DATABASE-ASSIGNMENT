@@ -101,3 +101,7 @@ graph TD
     D --> F[Generate new ERD]
     E --> G[Test Locally]
     F --> H[Submit PR]
+##Collaborators
+nadongocynthia@gmail.com
+favourakande1@gmail.com
+chepchumbajane2@gmail.com
